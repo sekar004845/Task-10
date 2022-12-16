@@ -1,0 +1,40 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+.container{
+	margin:auto;
+	width:100%;
+}
+img{
+	max-width:100%;
+}
+.row{
+	display:flex;
+}
+.column{
+	width:33.3%;
+}
+.image{
+	position:relative;
+	padding-right:10px;
+	padding-bottom:10px;
+	padding-left:10px;
+}
+.info{
+	position:absolute;
+	left:50px;
+	right:0;
+	bottom:50px;
+	width:80%;
+	background-color:#ffffffe6;
+	padding:30px;
+	opacity:0;
+}
+.info p{
+	color:#0d6e9e;
+}
+.image:hover .info{
+	opacity:1;
+}
